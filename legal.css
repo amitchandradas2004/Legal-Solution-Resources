@@ -8,7 +8,7 @@
 .EB-Garamond-Font {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: 800;
   font-style: normal;
 }
 /* Font section other */
@@ -17,5 +17,52 @@
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
+  color: #707070;
 }
-
+/* Navbar section */
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: space-around;
+}
+.nav-start {
+  height: 100px;
+  align-items: center;
+  align-content: center;
+  font-size: 2rem;
+}
+.nav-start img {
+  width: 40px;
+  height: 30px;
+  color: #b68c5a;
+}
+.nav-home {
+  display: flex;
+  gap: 30px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.nav-home img {
+  width: 10px;
+  height: 10px;
+}
+.nav-free {
+  width: 150px;
+  background-color: #b68c5a;
+  height: 40px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: white;
+  border-radius: 8px;
+  justify-items: center;
+  align-content: center;
+  box-shadow: 1px 1px 2px 2px rgb(193, 173, 158);
+}
+.nav-free:hover {
+  background-color: #c68e49;
+  font-size: 0.93rem;
+}
