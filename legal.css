@@ -17,7 +17,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
-  color: #707070;
+  color: #afa9a9;
 }
 /* Navbar section */
 .navbar {
@@ -42,7 +42,7 @@
 }
 .nav-home {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   font-size: 0.8rem;
   text-align: center;
 }
@@ -66,7 +66,71 @@
   background-color: #c68e49;
   font-size: 0.93rem;
 }
-
+/* Banner section */
+main {
+  background-image: url(images/banner.png);
+  /* background: url(images/Rectangle\ 5.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 350px;
+  border-radius: 10px;
+  justify-self: center;
+  margin: 20px 0;
+}
+.banner {
+  width: 60%;
+  height: 100%;
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+}
+.banner-title {
+  font-size: 3rem;
+  color: white;
+  /* padding: 10px 10px; */
+}
+.banner-text {
+  margin: 15px 0;
+  font-size: 0.8rem;
+}
+.banner-box {
+  display: flex;
+  /* border: 1px solid saddlebrown; */
+  justify-content: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+.service {
+  width: 80%;
+  height: 40px;
+  color: #8f8d8d;
+  background-color: white;
+  text-align: start;
+  align-content: center;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+.service:hover {
+  background-color: #f2efec;
+  font-size: 0.81rem;
+}
+.search {
+  width: 30%;
+  height: 40px;
+  background-color: #b68c5a;
+  text-align: center;
+  align-content: center;
+  color: white;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+.search:hover {
+  background-color: #c68e49;
+  font-size: 0.82rem;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Navbar section */
@@ -100,7 +164,5 @@
     width: 100px;
     height: 20px;
     font-size: 0.6rem;
-
   }
-
 }
