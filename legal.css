@@ -165,4 +165,56 @@ main {
     height: 20px;
     font-size: 0.6rem;
   }
+  .nav-free:hover {
+    font-size: 0.62rem;
+  }
+  /* Banner section */
+  main {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 200px;
+    justify-self: center;
+    margin: 20px 0;
+  }
+  .banner {
+    width: 75%;
+    height: 100%;
+  }
+  .banner-title {
+    font-size: 1.2rem;
+    /* padding: 10px 10px; */
+  }
+  .banner-text {
+    margin: 5px 0;
+    font-size: 0.5rem;
+  }
+  .banner-box {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    gap: 8px;
+  }
+  .service {
+    width: 80%;
+    height: 30px;
+    text-align: start;
+    align-content: center;
+    font-size: 0.6rem;
+    padding-left: 8px;
+  }
+  .service:hover {
+    font-size: 0.62rem;
+  }
+  .search {
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    font-size: 0.6rem;
+  }
+  .search:hover {
+    font-size: 0.62rem;
+  }
 }
