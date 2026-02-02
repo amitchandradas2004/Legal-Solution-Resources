@@ -22,7 +22,7 @@
 /* Navbar section */
 .navbar {
   display: flex;
-  width: 100%;
+  width: 90%;
   align-items: center;
   text-align: center;
   align-self: center;
@@ -65,4 +65,42 @@
 .nav-free:hover {
   background-color: #c68e49;
   font-size: 0.93rem;
+}
+
+/* Responsive for mobile devices */
+@media screen and (max-width: 576px) {
+  /* Navbar section */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    padding: 10px;
+  }
+  .nav-start {
+    height: 30px;
+    font-size: 1.2rem;
+  }
+  .nav-start img {
+    width: 20px;
+    height: 20px;
+  }
+  .nav-home {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 0.4rem;
+  }
+  .nav-home img {
+    width: 10px;
+    height: 5px;
+  }
+  .nav-free {
+    width: 100px;
+    height: 20px;
+    font-size: 0.6rem;
+
+  }
+
 }
