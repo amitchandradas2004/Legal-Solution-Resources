@@ -17,7 +17,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
-  color: #afa9a9;
+  color: #817e7e;
 }
 /* Navbar section */
 .navbar {
@@ -131,6 +131,25 @@ main {
 .search:hover {
   background-color: #c68e49;
   font-size: 0.82rem;
+}
+/* The Legal Practice Area section */
+.legal {
+  border: 1px solid seagreen;
+  width: 90%;
+  justify-self: center;
+}
+.legal-intro {
+  border: 1px solid aqua;
+  width: 60%;
+  justify-self: center;
+  text-align: center;
+  padding: 10px 0;
+}
+.legal-intro-title {
+  font-size: 1.8rem;
+}
+.legal-intro-p {
+  font-size: 0.8rem;
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
