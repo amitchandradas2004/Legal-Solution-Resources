@@ -180,6 +180,26 @@ main {
 .card-1-icon img {
   width: 30px;
 }
+/* What Our Client Say section */
+.client {
+  border: 1px solid saddlebrown;
+  text-align: center;
+  width: 85%;
+  height: 300px;
+  justify-self: center;
+}.client-intro{
+  border: 1px solid violet;
+  width: 100%;
+  height: 150px;
+  justify-self: center;
+  align-content: center;
+  padding: 15px 30px;
+}
+.client-title{
+  font-size: 2rem;
+  color: #414040;
+}
+
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Navbar section */
