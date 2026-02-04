@@ -182,24 +182,65 @@ main {
 }
 /* What Our Client Say section */
 .client {
-  border: 1px solid saddlebrown;
   text-align: center;
   width: 85%;
-  height: 300px;
+  height: 450px;
   justify-self: center;
-}.client-intro{
-  border: 1px solid violet;
+}
+.client-intro {
   width: 100%;
   height: 150px;
   justify-self: center;
   align-content: center;
   padding: 15px 30px;
 }
-.client-title{
+.client-title {
   font-size: 2rem;
   color: #414040;
 }
-
+.designer {
+  text-align: center;
+  background-image: url(images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  justify-self: center;
+  align-content: center;
+}
+.aero {
+  display: flex;
+  width: 100%;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.designer-title {
+  justify-self: center;
+}
+.designer-title span {
+  font-size: 2rem;
+  color: white;
+}
+.designer-title p {
+  color: white;
+}
+.designer-info {
+  color: rgb(201, 197, 197);
+  width: 90%;
+  justify-self: center;
+}
+.design-buttom {
+  color: white;
+  display: flex;
+  gap: 5px;
+  justify-self: center;
+}
+.buttom {
+  color: #b6aeae;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Navbar section */
