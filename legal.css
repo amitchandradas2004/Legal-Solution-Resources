@@ -366,4 +366,53 @@ main {
   .card-1-icon img {
     width: 20px;
   }
+  /* What Our Client Say section */
+  .client {
+    text-align: center;
+    width: 85%;
+    height: 450px;
+    justify-self: center;
+  }
+  .client-intro {
+    width: 100%;
+    height: 120px;
+  }
+  .client-title {
+    font-size: 1.5rem;
+  }
+  .client-description {
+    font-size: 0.6rem;
+  }
+  .designer {
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    justify-self: center;
+    align-content: center;
+  }
+  .designer-image img {
+    width: 15%;
+  }
+  .designer-title {
+    justify-self: center;
+  }
+  .designer-title span {
+    font-size: 1.5rem;
+  }
+  .designer-title p {
+    font-size: 0.8rem;
+  }
+  .aero {
+    padding: 0;
+  }
+  .designer-info {
+    width: 80%;
+    font-size: 0.6rem;
+    justify-self: center;
+  }
+  .design-buttom {
+    display: flex;
+    justify-self: center;
+  }
 }
