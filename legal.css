@@ -243,9 +243,8 @@ main {
 }
 /* Frequently asked question section */
 .Frequently {
-  border: 1px solid saddlebrown;
   width: 85%;
-  height: 300px;
+  height: 100%;
   margin-top: 100px;
   justify-self: center;
 }
@@ -260,9 +259,43 @@ main {
   font-size: 2em;
   color: #414040;
 }
-.Frequently-title p{
+.Frequently-title p {
   font-size: 0.8em;
   padding-top: 20px;
+}
+.Question {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Box {
+  width: 90%;
+  height: 110px;
+  padding-left: 20px;
+  align-content: center;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+}
+.Box span {
+  color: #414040;
+  font-size: 1em;
+}
+.Box:hover {
+  transition: 2ms;
+  transform: scale(1.02);
+  background-color: #dfdddd;
+}
+.box-2 {
+  height: 60px;
+  padding-left: 20px;
+}
+.Question-Image {
+  display: flex;
+  gap: 0px;
+}
+
+.Question-Image img {
+  width: 100%;
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
