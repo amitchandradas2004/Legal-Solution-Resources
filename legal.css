@@ -297,6 +297,45 @@ main {
 .Question-Image img {
   width: 100%;
 }
+/* Contact section */
+.Contact {
+  border: 1px solid green;
+  width: 85%;
+  margin-top: 50px;
+  justify-self: center;
+}
+.Contact-title {
+  border: 1px solid hotpink;
+  width: 60%;
+  height: 120px;
+  justify-self: center;
+  text-align: center;
+  align-content: center;
+}
+.Boxs {
+  border: 1px solid violet;
+  display: flex;
+  gap: 20px;
+}
+.Square {
+  border: 1px solid blue;
+  width: 50%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.square-box {
+  text-align: center;
+  width: 185px;
+  align-items: center;
+  align-content: center;
+  height: 150px;
+  border: 1px solid navy;
+}
+.input-box {
+  border: 1px solid chocolate;
+  width: 50%;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Navbar section */
@@ -508,7 +547,7 @@ main {
   .Box span {
     font-size: 0.8em;
   }
-  .box-1-p{
+  .box-1-p {
     font-size: 0.5em;
   }
   .box-2 {
