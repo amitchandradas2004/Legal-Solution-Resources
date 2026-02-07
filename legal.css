@@ -336,6 +336,10 @@ main {
   border: 1px solid chocolate;
   width: 50%;
 }
+. input-box:hover{
+background-color: black;
+
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Navbar section */
