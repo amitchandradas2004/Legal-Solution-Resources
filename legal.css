@@ -332,6 +332,9 @@ main {
   height: 150px;
   border: 1px solid navy;
 }
+. square-box:hover{
+background-color: black;
+}
 .input-box {
   border: 1px solid chocolate;
   width: 50%;
