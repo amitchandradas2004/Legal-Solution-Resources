@@ -305,43 +305,53 @@ main {
   justify-self: center;
 }
 .Contact-title {
-  border: 1px solid hotpink;
   width: 60%;
   height: 120px;
   justify-self: center;
   text-align: center;
   align-content: center;
 }
+.Contact-title span {
+  font-size: 2em;
+}
+.Contact-title p {
+  font-size: 0.9em;
+  color: #707070;
+}
 .Boxs {
-  border: 1px solid violet;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 .Square {
-  border: 1px solid blue;
-  width: 50%;
+  /* border: 1px solid blue; */
+  width: 55%;
   display: grid;
-  gap: 5px;
   grid-template-columns: repeat(2, 1fr);
 }
 .square-box {
-  text-align: center;
   width: 185px;
-  align-items: center;
-  align-content: center;
   height: 150px;
-  border: 1px solid navy;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  background-color: #f3f3f3;
+  border: 0.5px solid #cfcfcf;
 }
-. square-box:hover{
-background-color: black;
+.square-box img {
+  width: 13%;
+}
+.square-box:hover {
+  transition: 2ms;
+  border-radius: 5px;
+  transform: scale(1.02);
+  background-color: #fbfafa;
 }
 .input-box {
   border: 1px solid chocolate;
   width: 50%;
 }
-. input-box:hover{
-background-color: black;
-
+.input-box:hover {
+  /* background-color: rgb(253, 251, 251); */
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
