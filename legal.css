@@ -409,9 +409,6 @@ main {
     height: 20px;
     font-size: 0.6rem;
   }
-  .nav-free:hover {
-    font-size: 0.62rem;
-  }
   /* Banner section */
   main {
     background-position: center;
@@ -449,9 +446,6 @@ main {
     padding-left: 8px;
     color: #434040;
   }
-  .service:hover {
-    font-size: 0.62rem;
-  }
   .search {
     width: 30%;
     height: 30px;
@@ -459,9 +453,6 @@ main {
     align-content: center;
     font-size: 0.6rem;
     color: #ffffff;
-  }
-  .search:hover {
-    font-size: 0.62rem;
   }
   /* The Legal Practice Area section */
   .legal {
@@ -550,7 +541,7 @@ main {
   }
   /* Frequently asked question section */
   .Frequently {
-    width: 85%;
+    width: 90%;
     height: 100%;
     margin-top: 0px;
     justify-self: center;
@@ -571,16 +562,15 @@ main {
   }
   .Question {
     display: flex;
-    width: 80%;
+    width: 100%;
     gap: 8px;
-    text-align: center;
-    align-self: center;
+    align-items: center;
   }
   .Box {
-    width: 100%;
+    width: 90%;
     height: 100px;
     padding: 10px;
-    align-items: center;
+    text-align: center;
   }
   .Box span {
     font-size: 0.8em;
@@ -597,8 +587,8 @@ main {
     flex-direction: column-reverse;
     gap: 30px;
     width: 90%;
-    align-self: center;
     align-items: center;
+    justify-self: center;
   }
   .Question-Image img {
     width: 60%;
