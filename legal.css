@@ -299,14 +299,14 @@ main {
 }
 /* Contact section */
 .Contact {
-  border: 1px solid green;
   width: 85%;
-  margin-top: 50px;
+  margin: 70px 0;
   justify-self: center;
 }
 .Contact-title {
   width: 60%;
   height: 120px;
+  padding-bottom: 30px;
   justify-self: center;
   text-align: center;
   align-content: center;
@@ -323,7 +323,6 @@ main {
   gap: 10px;
 }
 .Square {
-  /* border: 1px solid blue; */
   width: 55%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -343,15 +342,34 @@ main {
 .square-box:hover {
   transition: 2ms;
   border-radius: 5px;
-  transform: scale(1.02);
+  transform: scale(1.01);
   background-color: #fbfafa;
 }
 .input-box {
-  border: 1px solid chocolate;
   width: 50%;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
-.input-box:hover {
-  /* background-color: rgb(253, 251, 251); */
+.box-1 {
+  padding-left: 10px;
+  align-content: center;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+}
+.box-4 {
+  grid-row: span 2;
+  align-content: flex-start;
+  padding-top: 15px;
+}
+.box-5 {
+  text-align: center;
+  color: white;
+  background-color: #b68c5a;
+}
+.box-1:hover {
+  transition: 2ms;
+  transform: scale(1.01);
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
