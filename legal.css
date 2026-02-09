@@ -717,4 +717,63 @@ footer {
     align-content: flex-start;
     padding-top: 15px;
   }
+  /* Footer section */
+  .Footer {
+    display: flex;
+    width: 90%;
+    padding: 30px 0;
+    justify-self: center;
+  }
+  .justice {
+    width: 25%;
+    padding: 5px;
+  }
+  .justice span {
+    font-size: 1.1em;
+  }
+  .justice p {
+    font-size: 0.6em;
+  }
+  .links {
+    width: 15%;
+    padding: 5px;
+  }
+  .links span {
+    font-size: 1em;
+  }
+  .links p {
+    font-size: 0.6em;
+  }
+  .contact-now {
+    width: 25%;
+    padding: 5px;
+  }
+  .contact-now p {
+    font-size: 0.6em;
+  }
+  .subscribe {
+    width: 30%;
+    padding: 5px;
+  }
+  .subscribe span {
+    font-size: 1em;
+  }
+  .subscribe p {
+    font-size: 0.6em;
+  }
+  .sub-email {
+    width: 80%;
+    align-content: center;
+    padding-left: 5px;
+  }
+  .sub-links {
+    display: flex;
+    height: 30px;
+  }
+  .sub-links span {
+    font-size: 0.5em;
+  }
+  .sub-img img {
+    width: 10px;
+  }
 }
