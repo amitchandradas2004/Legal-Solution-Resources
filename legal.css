@@ -37,8 +37,7 @@
   font-size: 2rem;
 }
 .nav-start img {
-  width: 40px;
-  height: 30px;
+  width: 20%;
   color: #b68c5a;
 }
 .nav-home {
@@ -371,6 +370,75 @@ main {
   background-color: #b68c5a;
 }
 .box-1:hover {
+  transition: 2ms;
+  transform: scale(1.01);
+}
+/* Footer section */
+footer {
+  background-color: black;
+  color: white;
+}
+.Footer {
+  display: flex;
+  width: 90%;
+  padding: 30px 0;
+  justify-self: center;
+}
+.justice {
+  width: 25%;
+  padding: 10px;
+}
+.justice img {
+  width: 15%;
+}
+.justice span {
+  font-size: 1.5em;
+}
+.links {
+  width: 15%;
+  padding: 10px;
+}
+.links span {
+  font-size: 1.2em;
+}
+.contact-now {
+  width: 25%;
+  padding: 10px;
+}
+.subscribe {
+  width: 30%;
+  padding: 10px;
+}
+.subscribe span {
+  font-size: 1.2em;
+}
+.sub-links {
+  display: flex;
+  height: 40px;
+}
+.sub-links span {
+  font-size: 0.8em;
+}
+.sub-email {
+  width: 80%;
+  align-content: center;
+  padding-left: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: white;
+}
+.sub-img {
+  width: 20%;
+  align-content: center;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #b68c5a;
+}
+.sub-img img {
+  width: 20px;
+}
+.sub-links:hover {
   transition: 2ms;
   transform: scale(1.01);
 }
