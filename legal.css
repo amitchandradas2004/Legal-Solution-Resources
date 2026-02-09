@@ -66,7 +66,8 @@
 }
 .nav-free:hover {
   background-color: #c68e49;
-  font-size: 0.93rem;
+  transition: 2ms;
+  transform: scale(1.01);
 }
 /* Banner section */
 main {
@@ -116,8 +117,8 @@ main {
   padding-left: 10px;
 }
 .service:hover {
-  background-color: #f2efec;
-  font-size: 0.81rem;
+  transition: 2ms;
+  transform: scale(1.01);
 }
 .search {
   width: 30%;
@@ -130,8 +131,8 @@ main {
   font-size: 0.8rem;
 }
 .search:hover {
-  background-color: #c68e49;
-  font-size: 0.82rem;
+  transition: 2ms;
+  transform: scale(1.01);
 }
 /* The Legal Practice Area section */
 .legal {
@@ -163,6 +164,8 @@ main {
 }
 .card-1:hover {
   background-color: #f5f4ee;
+  transition: 2ms;
+  transform: scale(1.01);
 }
 .card-1-title {
   font-size: 1.5rem;
@@ -599,5 +602,61 @@ main {
   }
   .Question-Image img {
     width: 60%;
+  }
+  /* Contact section */
+  .Contact {
+    width: 85%;
+    margin: 50px 0;
+    justify-self: center;
+  }
+  .Contact-title {
+    width: 60%;
+    height: 120px;
+    padding-bottom: 30px;
+    justify-self: center;
+    text-align: center;
+    align-content: center;
+  }
+  .Contact-title span {
+    font-size: 1.5em;
+  }
+  .Contact-title p {
+    font-size: 0.6em;
+  }
+  .Boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .Square {
+    width: 90%;
+    align-self: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .square-box {
+    width: 100%;
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  .input-box {
+    width: 80%;
+    height: 250px;
+    margin-top: 30px;
+    gap: 10px;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-1 {
+    align-content: center;
+  }
+  .box-4 {
+    grid-row: span 2;
+    align-content: flex-start;
+    padding-top: 15px;
   }
 }
